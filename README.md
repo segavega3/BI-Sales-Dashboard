@@ -99,7 +99,7 @@ The dataset follows a **one-to-many relationship** between the `orders` and `ord
 | State         | STRING   | State where the order was placed. |
 | City          | STRING   | City where the order was placed. |
 +---------------+----------+-------------------------------+
-
+```
 ### Orders Table
 ```sql
 +---------------+----------+---------------------------------+
@@ -113,3 +113,60 @@ The dataset follows a **one-to-many relationship** between the `orders` and `ord
 | Sub-Category  | STRING   | Specific product type within a category. |
 | PaymentMode   | STRING   | Payment method (COD, UPI, Debit Card, Credit Card, EMI). |
 +---------------+----------+---------------------------------+
+```
+## Data Exploration & Key Insights
+
+### Orders Table Insights
+- **25 distinct cities** across **19 states**.
+- **336 unique customers**, with **107 customers appearing more than once**.
+- **307 distinct order dates**—further validation required to ensure completeness.
+- **500 distinct `Order ID`s**, all present in both tables.
+
+#### Analysis Test:
+- How many **distinct `Order ID`s** are associated with the **336 customers**?
+- Do duplicate `Order ID`s on the same day indicate **multi-item purchases**?
+
+### Order Details Table Insights
+- **3 main product categories**: Clothing, Electronics, Furniture.
+- **17 total sub-categories**, distributed as:
+  - **Furniture:** 4 sub-categories.
+  - **Clothing:** 9 sub-categories.
+  - **Electronics:** 4 sub-categories.
+- **1500 total order entries but only 500 distinct `Order ID`s**, suggesting multiple items per order.
+- **5 payment methods**: COD, UPI, Debit Card, Credit Card, EMI.
+
+#### Analysis Test:
+- Validate that **all 500 `Order ID`s in `order_details` match the 500 IDs in `orders`**.
+
+---
+
+## Business Questions & Analytical Focus
+
+### Product & Sales Performance
+- Which **sub-categories sell the most** and generate the **highest profit**?
+- Which **sub-categories have negative profits**?
+- Which **sub-categories have the lowest sales & profit per month**?
+- Which **sub-categories have the fewest orders but highest profit**?
+- Which **sub-categories have the lowest quantities ordered but highest profit**?
+
+### Geographical Trends
+- Which **states & cities generate the most orders, highest sales, and highest profits**?
+- Which **states & cities generate the lowest sales and profits**?
+- Are **negative profits concentrated in certain states or cities**?
+- Does a specific **state/city show a consistent pattern of unprofitability** over multiple months?
+
+---
+
+## Next Steps
+
+### Data Validation & Cleaning
+- Ensure all **order date values** are formatted correctly.
+- Verify whether **duplicate `Order ID`s reflect multi-item purchases** or data inconsistencies.
+
+### Sales & Profitability Analysis
+- Identify **high-performing vs. low-performing products**.
+- Investigate **negative profits and potential causes**.
+
+### Geographical & Customer Insights
+- Identify **profitable vs. unprofitable locations**.
+- Detect **regional sales patterns and seasonal trends**.
