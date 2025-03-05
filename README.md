@@ -1026,18 +1026,21 @@ To analyze customer purchasing behavior and preferred payment methods to optimiz
 ---
 
 ## **Final Insights & Actionable Steps**
-1. **Optimize Payment Methods to Reduce Losses**
-   - **Reduce COD dependency** (45.6% of total orders) by offering **incentives for prepaid transactions** (e.g., extra discounts on card/UPI payments).
-   - **Analyze refund policies for UPI transactions**, which have the highest negative profit percentage (37.16%).
-   - **Encourage EMI options for high-ticket purchases**, as they have lower refund risks.
 
-2. **Increase Average Order Value (AOV)**
-   - Implement **free shipping or discounts for orders above a certain threshold** to encourage higher spending.
-   - Introduce **bundled product promotions**, especially in high-revenue categories like **Electronics and Clothing**.
+### **1. Optimize Payment Methods to Reduce Losses**
+- **Reduce COD dependency** (45.6% of total orders) by offering **incentives for prepaid transactions** (e.g., extra discounts on card/UPI payments).  
+- **Analyze refund policies for UPI transactions**, which have the highest negative profit percentage (37.16%).  
+- **Encourage EMI options for high-ticket purchases**, as they have lower refund risks.  
 
-3. **Target Marketing Based on Category Preferences**
-   - **Clothing had the highest order volume**, meaning customer engagement is stronger in this category.
-   - **Electronics had fewer orders but higher value**, suggesting a focus on promoting high-ticket tech products.
-   - **Furniture purchases were limited**, indicating potential price sensitivity or lower purchase frequency.
+### **2. Increase Average Order Value (AOV)**
+- **Implement free shipping or discounts for orders above a certain threshold** to encourage higher spending.  
+- **Introduce bundled product promotions**, especially in high-revenue categories like **Electronics and Clothing**.  
 
-By **strategically improving payment processes, reducing negative-profit transactions, and optimizing customer purchase behaviors**, the business can **increase revenue while minimizing risk**.
+### **3. Target Marketing Based on Category Preferences**
+- **Clothing had the highest order volume**, indicating strong customer engagement—potential for repeat purchases.  
+- **Electronics had fewer orders but higher value**, suggesting a focus on **promoting high-ticket tech products**.  
+- **Furniture purchases were limited**, signaling possible **price sensitivity or lower purchase frequency**—explore financing or discounts to boost sales.  
+
+### **Key Takeaway**
+By **strategically improving payment processes, reducing negative-profit transactions, and optimizing customer purchase behaviors**, the business can **increase revenue while minimizing risk**.  
+
