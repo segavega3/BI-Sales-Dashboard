@@ -189,22 +189,37 @@ Understanding profitability trends helps in:
 
 ## Key Findings
 
-### **Gross & Net Sales Overview**
-- **Total Gross Sales:** $437,771
-- **Total Net Profit:** $36,963
-- **Gross Profit:** $75,042
-- **Negative Profits:** -$38,079
-- **Profit Margin:** **8.44%**
-- **Profit Margin by Category (Yearly):**
-  - **Clothing:** 9.23%
-  - **Furniture:** 8.24%
-  - **Electronics:** 7.92%
+
+### **Gross & Net Profit Overview**
+| Metric               | Value ($) |
+|----------------------|---------|
+| **Total Gross Sales** | **$437,771** |
+| **Total Gross Profit** | **$75,042** |
+| **Total Negative Profit** | **-$38,079** |
+| **Net Profit** | **$36,963** |
+| **Overall Profit Margin** | **8.44%** |
+
+### **Profit Margin by Category (Yearly)**
+| Category   | Profit Margin (%) |
+|------------|------------------|
+| **Clothing**  | **9.23%** |
+| **Furniture** | **8.24%** |
+| **Electronics** | **7.92%** |
+
+### **Observations**
+- **Clothing has the highest profit margin (9.23%)**, which indicates a **strong revenue-to-cost efficiency ratio**.
+- **Electronics, despite high sales, has the lowest profit margin (7.92%)**, possibly due to **lower markup, high returns, or warranty costs**.
+- **Negative profits (-$38,079) account for a significant portion of total revenue**, highlighting the need for **better cost control and pricing strategies**.
+
 
 ---
 
-## **Most & Least Profitable Months**
+## **Statistical Analysis**
+- **Median Monthly Sales:** $31,613
+- **Standard Deviation of Sales:** $14,396.02
+---
 
-### **Most Profitable Months**
+## **Most Profitable Months**
 | Month        | Sales ($) | Profit ($) | Orders | % of Total Sales | % of Total Profit |
 |-------------|----------|-----------|--------|------------------|------------------|
 | **Nov**     | 48,469   | 10,253    | 46     | 11.07%           | 27.74%           |
@@ -213,7 +228,23 @@ Understanding profitability trends helps in:
 | **Mar**     | 60,694   | 7,793     | 58     | 13.86%           | 21.08%           |
 | **Apr**     | 34,330   | 4,192     | 44     | 7.84%            | 11.34%           |
 
-### **Lowest Profitable Months**
+### **Observations**
+- **November was the most profitable month (27.74% of total profit)** despite being **only the fourth-highest in sales**, suggesting:
+  - **Premium-priced products or reduced discounting strategies.**
+  - **High-margin categories dominated sales** (Electronics and Furniture).
+- **January had the highest sales ($61,632) but a lower profit share (26.2%)**, possibly due to:
+  - **High holiday discounts or promotional campaigns.**
+  - **Increased operational or return costs.**
+- **March also had strong sales but lower profitability (21.08%)**, indicating:
+  - **A mix of high-selling, low-margin products.**
+  - **Potential return/refund issues affecting margins.**
+- **April's profit percentage (11.34%) is lower than its sales contribution (7.84%)**, suggesting:
+  - **A mix of profitable and unprofitable products.**
+  - **Lower discounting compared to other months.**
+
+---
+
+## **Lowest Profitable Months**
 | Month        | Sales ($) | Profit ($) | Orders | % of Total Sales | % of Total Profit |
 |-------------|----------|-----------|--------|------------------|------------------|
 | **May**     | 29,093   | -3,730    | 31     | 6.65%            | -10.09%          |
@@ -222,13 +253,21 @@ Understanding profitability trends helps in:
 | **Sep**     | 27,283   | -1,399    | 30     | 6.23%            | -3.78%           |
 | **Jun**     | 23,658   | 420       | 30     | 5.4%             | 1.14%            |
 
----
+### **Observations**
+- **May was the least profitable month (-10.09% profit loss)**, suggesting:
+  - **Excessive discounting or clearance sales.**
+  - **High return rates or defective products.**
+- **July had the lowest revenue ($12,966) and a significant loss (-$2,138)**, indicating:
+  - **Low seasonal demand.**
+  - **A high percentage of low-margin products sold.**
+- **December had strong sales but still ended in negative profit (-$1,604)**, suggesting:
+  - **Holiday promotions eroded margins.**
+  - **Increased operational costs or shipping expenses.**
+- **June had minimal profit ($420) despite moderate sales ($23,658)**, meaning:
+  - **Profitability was squeezed by potential high costs of goods sold.**
+  - **This could indicate a category with high variable costs or increased returns.**
 
-## **Statistical Analysis**
-- **Median Monthly Sales:** $31,613
-- **Standard Deviation of Sales:** $14,396.02
-
----
+----
 
 ## **Comparing Negative vs. Positive Profits**
 
@@ -242,9 +281,13 @@ Understanding profitability trends helps in:
 | Uttar Pradesh   | 13             | -1,954                     | -63.03                           | 23             | 5,312                      | 94.86                           |
 
 ### **Observations**
-- **Maharashtra and Madhya Pradesh** experienced the highest number of negative profit orders.
-- **Andhra Pradesh had the highest loss per negative order (-$217.75)**, indicating that **specific high-cost products might be underperforming**.
-- **Some states with high negative orders still have strong overall profits**, suggesting potential pricing or demand-based losses.
+- **Maharashtra had the highest absolute negative profit (-$9,434)** but also the highest **positive profit ($16,397)**, meaning:
+  - The state had **high-volume transactions** but a **significant portion of unprofitable orders**.
+  - The issue could stem from **high return rates, fraud, or regional pricing strategies**.
+- **Madhya Pradesh had a similar pattern**, indicating **regional differences in profitability strategies**.
+- **Rajasthan and Andhra Pradesh had significantly lower transaction volumes but still showed negative profitability**, suggesting that:
+  - **Operational inefficiencies (e.g., logistics costs) could be affecting profits.**
+  - **Product demand in these states may be inconsistent.**
 
 ---
 
@@ -280,41 +323,40 @@ Understanding profitability trends helps in:
 ---
 
 ## **Final Insights & Actionable Steps**
-1. **Identify the reasons for high negative profits in Q2 and Q3.**  
-   - Are specific **products** driving losses?  
-   - Were there **pricing errors, discounts, or refunds** impacting margins?  
 
-2. **Analyze why December, despite high sales, had a negative profit margin.**  
-   - Were **excessive holiday discounts** the reason?  
-   - Did **expensive products underperform** during the season?  
+### **1. Investigate High Negative Profits in Q2 and Q3**
+- Identify **specific products, categories, or discount strategies** contributing to losses.
+- Were **pricing errors, excessive markdowns, or refunds** impacting margins?
 
-3. **Further investigate states with high negative profit orders.**  
-   - Should pricing be adjusted regionally?  
-   - Are certain cities consistently unprofitable?  
+### **2. Analyze December's Negative Profit Margin Despite High Sales**
+- Did **holiday discounts** reduce overall profitability?
+- Were **high-cost, low-margin products** disproportionately sold?
 
-4. **Compare products sold in profitable months vs. unprofitable months.**  
-   - Identify the **best-performing products** and **phase out low-margin items**.
-  
-5. **Reevaluate Clothing Profitability Across Quarters**
-   - Clothing had **negative profits in Q2 and Q3** despite moderate sales, indicating pricing or discounting issues.
-   - Consider reducing **markdowns** or identifying **high-cost, low-profit items** within this category.
+### **3. Optimize Clothing Profitability Across Quarters**
+- Clothing showed **negative profits in Q2 and Q3** despite moderate sales.
+- Consider **reducing markdowns** or adjusting pricing for **high-cost, low-profit items**.
 
-6. **Leverage Electronics as a High-Performing Category**
-   - **Electronics had the highest profits in Q1 and Q4**, suggesting **seasonal demand trends**.
-   - Further analyze which **products within Electronics** contributed most to profitability.
+### **4. Leverage Electronics as a High-Performing Category**
+- **Electronics had the highest profits in Q1 and Q4**, suggesting **seasonal demand spikes**.
+- Further analyze **which specific products contributed most** to profitability.
 
-7. **Investigate Poor-Performing Product Types**
-   - **Phones in Q3 (-$2,114)** and **Electronic Games in Q2 (-$1,711)** saw major losses.
-   - Assess whether these products **had high return rates, pricing issues, or seasonal demand declines**.
+### **5. Investigate Poor-Performing Product Types**
+- **Phones in Q3 (-$2,114)** and **Electronic Games in Q2 (-$1,711)** were major loss drivers.
+- Assess whether these items had **high return rates, pricing issues, or seasonal demand declines**.
 
-8. **Identify Pricing Trends for Consistently Profitable Products**
-   - **Printers performed well in Q1 and Q4**, showing **consistent profitability**.
-   - Consider whether **marketing efforts or price adjustments** contributed to strong sales.
+### **6. Compare Seasonal Trends in High vs. Low Profitability Products**
+- Are **high-margin products (Printers, Bookcases)** actively promoted during profitable quarters?
+- Are **low-performing products** being **overstocked or discounted too aggressively**?
 
-9. **Compare Seasonal Trends in High vs. Low Profitability Products**
-   - Investigate whether **high-margin products (Printers, Bookcases) are promoted during profitable quarters**.
-   - Analyze whether **low-performing products are being overstocked or discounted too aggressively**.
+### **7. Further Investigate States with High Negative Profit Orders**
+- Should **regional pricing adjustments** be made?
+- Are **certain cities consistently unprofitable**, and why?
 
+### **8. Refine Pricing Strategies Based on Product Performance**
+- Identify **consistent best-selling, high-margin products** to prioritize promotions.
+- Phase out **low-margin, high-return products** to reduce financial inefficiencies.
+
+---
 # Monthly & Quarterly Sales Analysis
 
 ## Objective
@@ -452,39 +494,55 @@ Analyze monthly and quarterly sales, profits, and order volume to understand per
 
 ---
 
-## **Final Insights & Actionable Steps**
-1. **Reevaluate Clothing Profitability Across Quarters**
-   - Clothing had **negative profits in Q2 and Q3** despite moderate sales, indicating pricing or discounting issues.
-   - Consider reducing **markdowns** or identifying **high-cost, low-profit items** within this category.
+## **Final Insights & Actionable Steps (Refined & Consolidated)**
 
-2. **Leverage Electronics as a High-Performing Category**
-   - **Electronics had the highest profits in Q1 and Q4**, suggesting **seasonal demand trends**.
-   - Further analyze which **products within Electronics** contributed most to profitability.
+### **1. Reevaluate Clothing Profitability Across Quarters**
+- Clothing had **negative profits in Q2 and Q3**, despite moderate sales.
+- Identify **high-cost, low-margin items** and reconsider **markdown strategies**.
 
-3. **Investigate Poor-Performing Product Types**
-   - **Phones in Q3 (-$2,114)** and **Electronic Games in Q2 (-$1,711)** saw major losses.
-   - Assess whether these products **had high return rates, pricing issues, or seasonal demand declines**.
+### **2. Leverage Electronics as a High-Performing Category**
+- **Electronics had the highest profits in Q1 and Q4**, indicating **seasonal demand trends**.
+- Further analyze **which specific products contributed most** to profitability.
 
-4. **Identify Pricing Trends for Consistently Profitable Products**
-   - **Printers performed well in Q1 and Q4**, showing **consistent profitability**.
-   - Consider whether **marketing efforts or price adjustments** contributed to strong sales.
+### **3. Investigate Poor-Performing Product Types**
+- **Phones in Q3 (-$2,114)** and **Electronic Games in Q2 (-$1,711)** were major loss drivers.
+- Assess whether these items had **high return rates, pricing issues, or seasonal demand declines**.
 
-5. **Compare Seasonal Trends in High vs. Low Profitability Products**
-   - Investigate whether **high-margin products (Printers, Bookcases) are promoted during profitable quarters**.
-   - Analyze whether **low-performing products are being overstocked or discounted too aggressively**.
+### **4. Identify Pricing & Promotion Strategies for Consistently Profitable Products**
+- **Printers performed well in Q1 and Q4**, showing **consistent profitability**.
+- Consider whether **marketing efforts, discounts, or pricing strategies** contributed to strong sales.
 
-By implementing these insights, the business can **optimize pricing, improve profitability, and enhance sales strategies** for long-term success.
+### **5. Compare Seasonal Trends in High vs. Low Profitability Products**
+- Are **high-margin products (Printers, Bookcases)** actively promoted during profitable quarters?
+- Are **low-performing products** being **overstocked, discounted too aggressively, or suffering from high return rates**?
+
+
 ---
 
-# Category & Product Performance
+# **Category & Product Performance**
 
-## Objective
-Analyze sales and profitability trends across different product categories and sub-categories to determine which products drive the most revenue and which underperform.
+## **Objective**
+Analyze sales and profitability trends across different product categories and sub-categories to:
+- Identify **top-performing** and **underperforming** products.
+- Determine which sub-categories contribute most to **sales and profit** at monthly and yearly levels.
+- Uncover **seasonal trends** to optimize inventory and marketing strategies.
 
-## Business Impact
-- **Identifying top-performing categories and products** helps optimize inventory, marketing, and sales strategies.
-- **Understanding seasonal and monthly trends** ensures that the right products are promoted at the right time.
-- **Detecting consistently unprofitable categories** allows for adjustments in pricing, promotions, or discontinuation of underperforming products.
+## **Business Impact**
+1. **Optimize Inventory & Sales Strategies**  
+   - Focus on **high-demand, high-margin** products to maximize revenue.  
+   - Adjust stock levels based on **seasonal demand patterns**.  
+
+2. **Increase Profitability & Reduce Losses**  
+   - Identify **unprofitable products** and evaluate **pricing, promotions, or discontinuation**.  
+   - Reduce financial inefficiencies by **minimizing overstock on low-performing items**.  
+
+3. **Improve Promotional & Pricing Strategies**  
+   - Align **discounts and marketing efforts** with products that drive the most profit.  
+   - Prevent **aggressive discounting** on products with consistently **low margins**.  
+
+4. **Strategic Decision-Making Based on Trends**  
+   - Use **monthly and yearly product trends** to refine **sales forecasting**.  
+   - Detect **negative profit trends** early to implement corrective measures.  
 
 ---
 
@@ -589,16 +647,6 @@ Analyze sales and profitability trends across different product categories and s
 - **Printers were the most profitable product type, outperforming even high-sales clothing items like Sarees.**  
 - **Bookcases and Accessories were strong contributors to profit despite lower overall sales.**  
 - **Tables, though profitable, had a much lower number of total orders, indicating a niche demand.**  
-
-
-
-## Objective
-Analyze which sub-categories contribute the most to sales and profitability while identifying the least profitable and lowest-selling products. Understand product trends at a monthly and yearly level to optimize product offerings.
-
-## Business Impact
-- **Understanding the top-selling product types** allows the business to focus on promoting high-demand items.
-- **Identifying unprofitable products** helps optimize inventory, reducing losses and increasing overall profitability.
-- **Tracking negative profit trends by product type** allows for potential adjustments in pricing, promotions, or discontinuation.
 
 ---
 
@@ -717,40 +765,279 @@ Analyze which sub-categories contribute the most to sales and profitability whil
 ---
 
 ## **Final Insights & Actionable Steps**
-1. **Discontinue or adjust pricing for unprofitable product types.**  
-   - **Electronic Games and Phones consistently resulted in losses.**  
-   - **Assess if discounts or return rates are causing these losses.**  
 
-2. **Leverage high-performing sub-categories.**  
-   - **Printers and Bookcases had high sales and profitability.**  
-   - **Increasing inventory or marketing these items could drive further growth.**  
+### **1. Address Unprofitable Product Types**
+- **Electronic Games and Phones consistently resulted in losses.**  
+- **Analyze whether discounts, return rates, or cost structures are causing these losses.**  
+- **Consider discontinuing or adjusting pricing strategies for these underperforming products.**  
 
-3. **Address negative profit drivers.**  
-   - **Sarees had high sales but major losses—analyze if returns or cost structures are the issue.**  
-   - **If losses are due to discounts, consider adjusting pricing strategies.**  
+### **2. Leverage High-Performing Sub-Categories**
+- **Printers and Bookcases had high sales and profitability.**  
+- **Increasing inventory or implementing targeted marketing strategies for these products could drive further growth.**  
 
-4. **Reevaluate inventory for lowest-selling product types.**  
-   - **Skirts, Leggings, and Kurti had the lowest sales and profitability.**  
-   - **Determine if they should be discontinued or adjusted for higher demand.**  
+### **3. Optimize Profitability for Negative Profit Drivers**
+- **Sarees had high sales but significant losses.**  
+- **Investigate if losses stem from high return rates, manufacturing costs, or excessive discounting.**  
+- **Adjust pricing or promotional strategies accordingly.**  
+
+### **4. Reevaluate Inventory for Low-Selling Products**
+- **Skirts, Leggings, and Kurti had the lowest sales and profitability.**  
+- **Assess whether these products should be discontinued or repositioned to improve demand.**  
+
+### **5. Improve Electronics Profitability**
+- **Electronics drive high revenue but require profit optimization.**  
+- **Examine pricing and return policies to ensure profitability in low-performing months.**  
+- **Focus on high-margin electronic products like **Printers** rather than loss-generating ones like **Phones**.**  
+
+### **6. Refine Clothing Profitability Strategy**
+- **Clothing has strong sales but inconsistent profitability.**  
+- **Reduce discounting in historically weak months (**June, September**).**  
+- **Identify which clothing products contribute most to net profits and prioritize them in marketing efforts.**  
+
+### **7. Assess Furniture Performance & Pricing**
+- **Furniture, despite lower sales, maintains stability.**  
+- **Consider expanding high-margin furniture items like **Bookcases** to boost revenue.**  
+- **Analyze demand elasticity—do customers buy more when prices are reduced?**  
+
+### **8. Investigate Seasonal Profit Losses**
+- **May, July, and September show the worst losses.**  
+- **Further analysis is needed on inventory costs, refund rates, and seasonal demand fluctuations.**  
+
+### **9. Expand Profitable Product Lines**
+- **Printers and Bookcases consistently generate profits—prioritize their marketing and inventory expansion.**  
+- **Loss-making products like Phones and Electronic Games should be reevaluated to determine whether they should be discontinued or repriced.**  
+ 
+
+----
+
+# Geographical Insights
+
+## **Objective**
+To analyze sales and profitability trends across different **cities and states** to identify high-performing and underperforming regions. Understanding geographical performance helps businesses optimize marketing, inventory distribution, and localized pricing strategies.
+
+## **Business Impact**
+- Identifying **high-revenue cities** ensures targeted marketing and better stock distribution.
+- Recognizing **low-profit regions** helps in **cost-cutting measures** and **potential pricing adjustments**.
+- Investigating **negative profit trends by location** can reveal operational inefficiencies.
+
+---
+
+## **Key Findings**
+
+### **Cities & States with the Highest Sales**
+| State           | City                  | Total Sales ($) | Total Orders |
+|---------------|----------------------|----------------|--------------|
+| **Maharashtra**  | **Mumbai**             | 58,886         | 67           |
+| **Maharashtra**  | **Pune**               | 43,612         | 27           |
+| **Uttar Pradesh** | **Mathura**           | 28,747         | 6            |
+| **Madhya Pradesh** | **Bhopal**           | 23,783         | 22           |
+| **Delhi**        | **Delhi**              | 22,957         | 24           |
+
+### **Observations**
+- **Mumbai & Pune are the strongest sales contributors**, making Maharashtra a key sales hub.
+- **Smaller cities like Mathura and Bhopal had significant sales despite fewer orders**, indicating high-value transactions.
+- **Delhi and Kolkata performed well in sales, suggesting strong e-commerce adoption in these cities.**
+
+---
+
+### **Cities & States with the Highest Profit**
+| State           | City                  | Total Profit ($) | Total Orders |
+|---------------|----------------------|----------------|--------------|
+| **Madhya Pradesh** | **Indore**           | 6,763          | 71           |
+| **Maharashtra**  | **Pune**               | 6,160          | 27           |
+| **Uttar Pradesh** | **Mathura**           | 3,335          | 6            |
+| **Tamil Nadu**   | **Chennai**            | 2,602          | 8            |
+| **Kerala**       | **Thiruvananthapuram**  | 2,435          | 16           |
+
+### **Observations**
+- **Indore led in profitability, despite not being the top sales city.**
+- **Pune maintained a balance between high sales and profit, reinforcing its importance.**
+- **Mathura had a high average profit per order, suggesting premium-priced products were sold here.**
+- **Chennai and Thiruvananthapuram performed well in profits but had a low number of total orders, indicating high-margin sales.**
+
+---
+
+### **Cities & States with the Lowest Sales**
+| State           | City                  | Total Sales ($) | Total Orders |
+|---------------|----------------------|----------------|--------------|
+| **Uttar Pradesh** | **Prayagraj**         | 3,889          | 6            |
+| **Punjab**       | **Amritsar**           | 4,507          | 9            |
+| **Sikkim**       | **Gangtok**            | 5,276          | 12           |
+| **Uttar Pradesh** | **Lucknow**           | 5,726          | 13           |
+| **Tamil Nadu**   | **Chennai**            | 6,276          | 8            |
+
+### **Observations**
+- **Prayagraj, Amritsar, and Gangtok had the lowest sales**, potentially due to limited e-commerce adoption.
+- **Chennai had both high profit and low sales, suggesting higher-margin products were sold in fewer transactions.**
+- **Lucknow and Surat had mid-range sales but were outperformed by other cities in their respective states.**
+
+---
+
+### **Cities & States with the Lowest Profit**
+| State           | City                  | Total Profit ($) | Total Orders |
+|---------------|----------------------|----------------|--------------|
+| **Andhra Pradesh** | **Hyderabad**       | -280           | 15           |
+| **Rajasthan**      | **Jaipur**           | -275           | 19           |
+| **Uttar Pradesh**  | **Prayagraj**        | -133           | 6            |
+| **Rajasthan**      | **Udaipur**          | -48            | 13           |
+| **Nagaland**       | **Kohima**           | 40             | 15           |
+
+### **Observations**
+- **Hyderabad and Jaipur had the most significant negative profits**, indicating a need for cost or pricing review.
+- **Prayagraj, the lowest-selling city, also ranked among the least profitable, reinforcing its poor performance.**
+- **Despite a high number of orders, Jaipur still suffered a net loss.**
+- **Udaipur and Kohima had the smallest profit margins, potentially due to high operational costs.**
+
+---
+
+## **Negative Profits Concentrated in Certain Cities**
+| State           | City                  | Negative Orders | Total Negative Profit ($) |
+|---------------|----------------------|----------------|----------------------|
+| **Maharashtra**  | **Mumbai**             | 82             | -7,179               |
+| **Madhya Pradesh** | **Indore**           | 97             | -4,832               |
+| **Andhra Pradesh** | **Hyderabad**        | 12             | -2,613               |
+| **Maharashtra**  | **Pune**               | 27             | -2,255               |
+| **Madhya Pradesh** | **Bhopal**           | 28             | -2,159               |
+
+### **Observations**
+- **Mumbai, despite being a top sales city, had the highest number of negative-profit orders.**
+- **Indore had the second-highest negative profits, despite being the highest-profit city overall.**
+- **Hyderabad and Bhopal had fewer negative orders but still had significant losses, requiring further cost analysis.**
+
+---
+
+## **Do Certain Payment Methods Correlate with Negative Profits?**
+| Payment Mode | Total Orders | Total Profit ($) | Negative Orders | Negative Profit (%) |
+|-------------|-------------|----------------|----------------|--------------------|
+| **Credit Card** | 163         | 12,612        | 57             | 34.97%             |
+| **COD**        | 684         | 12,547        | 244            | 35.67%             |
+| **EMI**        | 120         | 4,824         | 41             | 34.17%             |
+| **Debit Card** | 202         | 3,694         | 64             | 31.68%             |
+| **UPI**        | 331         | 3,286         | 123            | 37.16%             |
+
+### **Observations**
+- **UPI had the highest percentage (37.16%) of negative-profit orders, suggesting issues with refund policies or fraud risks.**
+- **COD (Cash on Delivery) had the highest number of negative-profit orders (244), possibly due to cancellations or returns.**
+- **Credit Card transactions also showed high negative profit percentages, indicating potential chargebacks or refund issues.**
+- **Debit Card and EMI had lower negative profit percentages but still contributed significantly to losses.**
+
+---
+
+## **Final Insights & Actionable Steps**
+
+### **1. Optimize High-Profit Regions**
+- **Invest in marketing for high-profit cities like Indore, Pune, and Mathura to increase sales further.**  
+- **Analyze key factors driving profitability in these areas and replicate successful strategies in lower-performing cities.**  
+
+### **2. Address Negative Profit Trends**
+- **Mumbai and Indore had the highest number of negative-profit orders—further analysis is required.**  
+- **Determine if losses stem from returns, excessive discounting, or operational inefficiencies.**  
+- **Implement stricter return policies in cities with high refund-related losses.**  
+
+### **3. Evaluate Payment Methods Impacting Negative Profits**
+- **UPI and COD transactions should be closely monitored for fraud and high return rates.**  
+- **Offer incentives for digital payments (Credit/Debit Card), which have lower refund risks.**  
+- **Analyze COD-related losses and consider limiting COD eligibility for high-risk products.**  
+
+### **4. Strategically Address Low-Sales Cities**
+- **Prayagraj, Amritsar, and Gangtok recorded the lowest sales and profitability.**  
+- **Assess whether to reduce marketing spend or explore targeted promotions to boost sales in these regions.**  
+
+### **Key Takeaway**  
+By **focusing on profitable cities, reducing losses from negative-profit transactions, and optimizing regional payment strategies**, the business can **maximize sales while improving overall profitability**.  
 
 
-5. **Electronics drives high revenue but requires profit optimization.**  
-   - Examine pricing and return policies to ensure profitability in low-performing months.  
-   - Focus on high-margin electronic products like **Printers** instead of loss-generating ones like **Phones**.  
+------
 
-6. **Clothing has strong sales but needs a refined profitability strategy.**  
-   - Reduce discounting in historically weak months (**June, September**).  
-   - Identify which clothing products contribute most to net profits and prioritize them in marketing efforts.  
 
-7. **Furniture, despite lower sales, maintains stability.**  
-   - Consider whether increasing **high-margin furniture items like Bookcases** could improve revenue.  
-   - Assess demand elasticity—do customers buy more when prices are reduced?  
+# Customer & Payment Insights
 
-8. **Identify why certain months have sharp losses.**  
-   - **May, July, and September show the worst losses.**  
-   - Further investigation needed into **inventory costs, refund rates, and seasonal demand drops.**  
+## **Objective**
+To analyze customer purchasing behavior and preferred payment methods to optimize checkout processes, minimize negative profits, and improve overall transaction efficiency.
 
-9. **Expand profitable product lines based on top-performing sub-categories.**  
-   - **Printers and Bookcases** generated consistent profits and should be further promoted.  
-   - **Loss-making products like Phones and Electronic Games should be reevaluated** to determine if they should be discontinued or repriced.  
+## **Business Impact**
+- Understanding **popular payment methods** helps in **reducing checkout friction** and **optimizing payment processing fees**.
+- Analyzing **negative profit trends** by payment type can help in mitigating losses from **refunds, fraud, or cancellations**.
+- Evaluating **average order value (AOV)** assists in **upselling strategies** and adjusting **minimum order thresholds**.
 
+---
+
+## **Key Findings**
+
+### **Most Popular Payment Modes**
+| Payment Mode  | Percentage of Total Transactions (%) |
+|--------------|----------------------------------|
+| **COD** (Cash on Delivery)  | **45.6%**  |
+| **UPI** (Unified Payments Interface) | **22.07%** |
+| **Debit Card**  | **13.47%**  |
+| **Credit Card**  | **10.87%**  |
+| **EMI** (Equated Monthly Installment)  | **8%**  |
+
+### **Observations**
+- **COD is the most preferred payment method (45.6%)**, indicating that many customers prefer to pay upon product delivery.
+- **UPI (22.07%) is the second most popular, highlighting the adoption of digital wallets and instant payments.**
+- **Credit and Debit Cards combined make up 24.34% of transactions, reflecting the use of direct bank-linked payments.**
+- **EMI (8%) is the least used payment option**, suggesting that installment-based payments are not a primary choice for this customer base.
+
+---
+
+### **Average Order Value (AOV)**
+| Metric  | Value ($) |
+|---------|---------|
+| **Average Order Value (AOV)** | **$875.54** |
+
+### **Observations**
+- **AOV of $875.54** suggests that customers are making mid-to-high-value purchases.
+- **Clothing and Electronics categories drive most of the transactions**, influencing this AOV.
+- **This metric can be used to design promotions**, such as **discounts on orders above a certain threshold** to encourage higher spending.
+
+---
+
+### **Number of Orders by Category (Yearly)**
+| Category   | Number of Orders |
+|------------|----------------|
+| **Electronics**  | **204** |
+| **Clothing**  | **393** |
+| **Furniture**  | **186** |
+
+### **Observations**
+- **Clothing had the highest number of orders (393)**, suggesting **frequent repeat purchases**.
+- **Electronics had fewer orders (204) but higher individual order value**, likely due to **higher ticket items**.
+- **Furniture had the fewest orders (186), possibly due to infrequent purchases or higher price sensitivity.**
+- **Segmenting customers by category preference** can help in **targeting personalized marketing efforts**.
+
+---
+
+### **Do Certain Payment Methods Correlate with Negative Profits?**
+| Payment Mode  | Total Orders | Total Profit ($) | Negative Profit Orders | Negative Profit (%) |
+|--------------|-------------|----------------|----------------|--------------------|
+| **Credit Card** | 163 | 12,612 | 57 | 34.97% |
+| **COD** | 684 | 12,547 | 244 | 35.67% |
+| **EMI** | 120 | 4,824 | 41 | 34.17% |
+| **Debit Card** | 202 | 3,694 | 64 | 31.68% |
+| **UPI** | 331 | 3,286 | 123 | 37.16% |
+
+### **Observations**
+- **UPI transactions had the highest percentage of negative-profit orders (37.16%)**, indicating potential refund or fraud risks.
+- **COD transactions had the highest absolute number of negative orders (244)**, confirming risks of order cancellations and returns.
+- **Credit Card orders had a 34.97% negative profit rate**, suggesting possible chargebacks or refunds.
+- **Debit Card and EMI transactions had relatively lower negative profit percentages**, making them more stable payment options.
+
+---
+
+## **Final Insights & Actionable Steps**
+1. **Optimize Payment Methods to Reduce Losses**
+   - **Reduce COD dependency** (45.6% of total orders) by offering **incentives for prepaid transactions** (e.g., extra discounts on card/UPI payments).
+   - **Analyze refund policies for UPI transactions**, which have the highest negative profit percentage (37.16%).
+   - **Encourage EMI options for high-ticket purchases**, as they have lower refund risks.
+
+2. **Increase Average Order Value (AOV)**
+   - Implement **free shipping or discounts for orders above a certain threshold** to encourage higher spending.
+   - Introduce **bundled product promotions**, especially in high-revenue categories like **Electronics and Clothing**.
+
+3. **Target Marketing Based on Category Preferences**
+   - **Clothing had the highest order volume**, meaning customer engagement is stronger in this category.
+   - **Electronics had fewer orders but higher value**, suggesting a focus on promoting high-ticket tech products.
+   - **Furniture purchases were limited**, indicating potential price sensitivity or lower purchase frequency.
+
+By **strategically improving payment processes, reducing negative-profit transactions, and optimizing customer purchase behaviors**, the business can **increase revenue while minimizing risk**.
